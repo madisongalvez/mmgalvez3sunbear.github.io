@@ -1,0 +1,305 @@
+@charset "UTF-8" 
+    
+html{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(242, 237, 212);
+    margin: 0;
+    font-family: mirza;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    height: 820px;
+    background-color: rgb(66,89,87);
+    background-size: cover;
+    overflow: hidden;  
+}
+
+.navbar a{
+    font-family: niramit;
+    padding-left: 100px;
+    text-decoration: none;
+    color: rgb(242, 237, 212);
+    font-size: 2.5vw;    
+}
+
+.navbar{
+    margin-top: 1em;
+}
+
+.cover{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    margin-top: 5em;
+    justify-content: center
+}
+
+.circle{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(242, 229, 162);
+    border-radius: 50%;
+    margin-right: -32.5em;
+    margin-top: -1.5em;
+}
+
+.sunbear1{
+    padding-right: 5em;
+    display: flex;
+}
+
+.title{
+    margin-top: 4.5em;
+}
+
+.sunbears{
+    color: rgb(242, 237, 212);
+    margin-bottom: -6.5em;
+}
+
+.bellaire{
+    color: rgb(242, 229, 162);
+    padding-bottom: 0px;
+}
+
+/* Part 2 */
+
+.intro{
+    height: 17em;
+    background-color: rgb(250, 180, 165);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.intro p{
+    font-family: niramit;
+    color: rgb(35, 47, 46);
+    font-size: 2vw;
+    width: 23em;
+    padding-left: 2em;
+    margin-top: 1.5em;
+}
+
+.basil{
+    margin-top: -12em;
+}
+
+/* Part 3*/
+
+.culinary h2{
+    font-size: 5vw;
+    color: rgb(66, 89, 87);
+    margin-top: 1em;
+    margin-left: 1.7em;
+    width: 9em;
+}
+
+.map img{
+    width: 78vw;
+    padding-left: 12em;
+    margin-top: -6em;
+    max-width: 100%;
+}
+
+.info{
+    font-family: niramit;
+    font-size: 1.3em;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+}
+
+.north p{
+    border-style: none;
+    background-color: rgb(250, 180, 165);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    float: left;
+    opacity: 70%;
+    padding: 1em;
+    padding-left: 9em;
+    margin-top: -95em;
+    width: 25em;
+}
+
+.central p{
+    border-style: none;
+    background-color: rgb(250, 180, 165);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    float: left;
+    opacity: 70%;
+    padding: 1em;
+    padding-left: 9em;
+    margin-top: -55em;
+    width: 30em;
+}
+
+.southern p{
+    border-style: none;
+    background-color: rgb(250, 180, 165);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    float: left;
+    opacity: 70%;
+    padding: 1em;
+    padding-left: 9em;
+    margin-top: -27em;
+    width: 25em;
+}
+
+.dishes h3{
+    max-width: 100%;
+    font-family: niramit;
+    font-size: 2em;
+    color: rgb(217, 102, 102);
+}
+
+.thumbnail{
+    transition: transform .2s;
+}
+
+.thumbnail:hover{
+    transform:scale(1.2);
+}
+
+.banhcuon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 19vw;
+    margin-top: -100em;
+    padding-left: 5em;
+    max-width: 100%;
+}
+
+.banhcuon h3{
+    margin-top: .5em;
+}
+
+.bdmt{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 19vw;
+    margin-top: -56em;
+    padding-left: 63em;
+}
+
+.bdmt h3{
+    margin-top: .5em;
+}
+
+.banhramit{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 19vw;
+    margin-top: 43em;
+    padding-left: 5em;
+}
+
+.banhramit h3{
+    margin-top: .5em;
+}
+
+.banhbeo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 19vw;
+    margin-top: -20em;
+    padding-left: 30em;
+}
+
+.banhbeo h3{
+    margin-top: .5em;
+}
+
+.phalau{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 19vw;
+    margin-top: 20em;
+    padding-left: 5em;
+}
+
+.phalau h3{
+    margin-top: .5em;
+}
+
+.banhmi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 19vw;
+    margin-top: -5em;
+    padding-left: 20em;    
+}
+
+.banhmi h3{
+    margin-top: .5em;
+}
+
+.caphe{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 19vw;
+    margin-top: -57em;
+    padding-left: 65em;
+}
+
+.caphe h3{
+    margin-top: .5;
+}
+
+.comtam{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 19vw;
+    margin-top: -10em;
+    padding-left: 45em;
+}
+
+.comtam h3{
+    margin-top: -.2em;
+}
+
+.crown img{
+    width: 100vw;
+    margin-bottom: -20em;
+    z-index: 2;
+    position: relative;
+}
+
+footer{
+    font-family: niramit;
+    color: rgb(242, 237, 212);
+    background-color: rgb(66,89,87);
+    background-size: cover;
+    height: 20em;
+    z-index: 5;
+    position: relative;
+}
+
+footer p{
+    padding-left: 100px;
+    padding-top: 7em;
+}
+
+
+
+
+

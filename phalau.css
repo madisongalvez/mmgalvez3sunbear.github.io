@@ -1,0 +1,336 @@
+@charset "UTF-8" 
+    
+html{
+    box-sizing: border-box;
+}
+  
+body {
+    background-color: rgb(242, 229, 162);
+    margin: 0;
+    font-family: mirza;
+    max-width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Part 1 */
+
+header{
+    height: 750px;
+    background-size: cover;
+    overflow: hidden; 
+    min-height: 100vh;
+    width: 100vw;
+    transform-style: inherit;
+}
+
+.navbar a{
+    font-family: niramit;
+    padding-left: 100px;
+    text-decoration: none;
+    color: rgb(242, 237, 212);
+    font-size: 35px;
+    
+}
+
+.navbar{
+    padding-top: 1em;
+    background-color: rgb(66,89,87); 
+    background-size: cover;
+    height: 70px;
+}
+
+.container{
+    position: fixed;
+    z-index: 1;
+} 
+
+.sticky{
+    display: flex;
+    width: 85vw;
+    align-content: center;
+    margin-left: 7em;
+}
+
+.bdmt img{
+    width: 700px;
+}
+
+.text{
+    margin-top: 8em;
+}
+
+.text h1{
+    font-size: 7vw;
+    color: rgb(217, 102, 102);
+
+}
+
+.intro p{
+    font-family: niramit;
+    margin-top: -5em;
+    width: 32vw;
+}
+
+.ingredients{
+    background-color: rgb(172, 197, 171);
+    background-size: 100vw;
+    position: relative;
+    z-index: 3;
+}
+
+.crown img{
+    width: 100vw;
+    align-content: center;
+    margin-top: -22em
+}
+
+.ingredients h2{
+    font-family: slackside one;
+    font-size: 8vw;
+    color: rgb(35,47,46);
+    text-align: center;
+    margin-top: -2em;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1100px;
+    margin-top: -4em;
+    padding-left: 26em;
+    padding-bottom: 4em;
+    margin-right: 0em;
+}
+
+.list ul{
+    width: 250px;
+    font-family: niramit;
+    font-size: 1.1vw;
+    padding-right: 50px;
+}
+
+.list h4{
+    font-size: 1.7vw;
+    color: rgb(35,47,46);
+    width: 240px;
+}
+
+section{
+    height: 120vh;
+    background-image: url(images/phalaupic2.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 2;
+    margin-top: 0px;
+}
+
+.picthree{
+    background-image: url(images/);
+    z-index: 1;
+    position: relative;
+    height: 110vh;
+}
+
+.restaurant p{
+    border-style: none;
+    background-color: rgb(66,89,87);
+    opacity: 80%;
+    margin-top: -45em;
+    font-family: niramit;
+    color: rgb(242, 237, 212);
+    font-size: 2.1em;
+    text-align: center;
+    width: 600px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 400px;
+    padding-right: 440px;
+    position: absolute;
+    z-index: 3;
+}
+    
+.preparation{
+    background-color: rgb(242, 237, 212);
+    position: relative;
+    z-index: 2;
+    padding-bottom: 7em;
+}
+
+.preparation h2{
+    font-family: slackside one;
+    font-size: 100px;
+    color: rgb(35,47,46);
+    text-align: center;
+    margin-top: -10.5em;
+    padding-top: .5em;
+}
+
+.steps{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1100px;
+    margin-top: -4em;
+    padding-left: 280px;
+    padding-bottom: 4em;
+    margin-right: 0px;
+    position: inherit;
+    z-index: 2;
+}
+
+.steps ol{
+    width: 250px;
+    font-family: niramit;
+    font-size: 15px;
+    padding-right: 50px;
+    margin-left: -1.7em;
+}
+
+.steps li{
+    padding-bottom: .4em;
+}
+
+.steps h4{
+    font-size: 25px;
+    color: rgb(35,47,46);
+    width: 240px;
+}
+
+.steps h3{
+    color: rgb(217, 102, 102);
+    font-size: 40px;
+    margin-bottom: -2em;
+    margin-left: -1em;
+}
+
+.circle{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(242, 237, 212);
+    border-radius: 50%;
+    margin-left: -48em;
+    margin-top: 17em;
+    position: absolute;
+    z-index: 2;
+}
+
+.end{
+    background-color: rgb(217, 102, 102);
+    margin-top: -3em;
+    position: relative;
+    z-index: 1;
+    height: 145vh;
+}
+
+.sunbear img{
+    width: 37vw;
+    margin-top: 14em;
+    margin-left: -50em;
+    position: absolute;
+    z-index: 2;
+}
+
+.conclusion h2{
+    font-size: 4vw;
+    color: rgb(242, 237, 212);
+    padding-top: 5em;
+    padding-left: 3em;
+}
+
+.conclusion h3{
+    font-family: niramit;
+    color: rgb(242, 229, 162);
+    font-size: 1.5vw;
+    padding-left: 8em;
+    width: 9em;
+    margin-top: -2em;
+}
+
+.contact-box{
+    width: 50vw;
+    background-color: rgb(217, 102, 102);
+    position: absolute;
+    z-index: 2;
+    margin-left: 40em;
+    margin-top: -5em;
+}
+
+.form{
+    margin: 35px;
+}
+
+.input-field{
+    background-color: rgb(242, 237, 212);
+    width: 45vw;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    border: 1px solid rgb(217, 102, 102);
+    border-radius: 14px;
+    outline: none;
+    font-family: niramit;
+    font-size: 1vw;
+}
+
+.textarea-field{
+    padding-top: 5px;
+    height: 17vh;  
+}
+
+.btn{
+    border-radius: 20px;
+    font-family: niramit;
+    color: rgb(217, 102, 102);
+    background-color: rgb(242, 237, 212);
+    margin-top: 18px;
+    padding: 10px;
+    font-size: 1.3vw;
+    border: none;
+    cursor: pointer;
+}
+
+.crown2 img{
+    width: 100vw;
+    margin-top: 120px;
+    z-index: 2;
+    position: relative;
+}
+
+footer{
+    font-family: niramit;
+    color: rgb(242, 237, 212);
+    background-color: rgb(66,89,87);
+    background-size: cover;
+    height: 20em;
+    z-index: 5;
+    position: relative;
+    margin-top: -325px;
+}
+
+footer p{
+    padding-left: 100px;
+    padding-top: 7em;
+}
+
+
+
+    
+    
+    
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
